@@ -1,3 +1,3 @@
-vim.api.nvim_create_user_command("charcount", function()
+vim.api.nvim_create_user_command("Charcount", function()
   require("charcount").hello()
 end, {})
