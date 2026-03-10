@@ -1,3 +1,3 @@
-vim.api.nvim_create_user_command("Charcount", function()
-  require("charcount").hello()
-end, {})
+vim.keymap.set("n", "<leader>mp", function()
+  require("charcount").run()
+end, { desc = "Run charcount plugin" })

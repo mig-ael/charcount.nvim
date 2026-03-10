@@ -1,6 +1,6 @@
 local M = {}
 
-function M.hello()
+function M.run()
   print("Hello from my GitHub plugin")
 end
 
